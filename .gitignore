@@ -1,0 +1,8 @@
+.vscode/*
+!.vscode/launch.json
+
+
+*.bak
+*.old
+*.txt_private
+*.debug
