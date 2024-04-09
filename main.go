@@ -1,9 +1,11 @@
 package main
 
 import (
-	"github.com/mateuszpiela/pcinfotool/osinfo"
+	"fmt"
+
+	"github.com/mateuszpiela/pcinfotool/reportmaker"
 )
 
 func main() {
-	osinfo.GetOSInformation()
+	fmt.Print(reportmaker.GenerateReport())
 }
